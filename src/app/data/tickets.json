@@ -1,0 +1,46 @@
+[
+    {
+        "ticketId": 1,
+        "ticketName": "Support",
+        "userId": "1",
+        "categoryId": 1,
+        "datecreated": "07/10/2017",
+        "departmentOwner": "It",
+        "daysAssigned": "39",
+        "reorderLevel": "10",
+        "multiEdit": true
+    },
+    {
+        "ticketId": 2,
+        "ticketName": "New Hire",
+        "userId": "1",
+        "categoryId": 1,
+        "datecreated": "07/05/2017",
+        "departmentOwner": "Hr",
+        "daysAssigned": "17",
+        "reorderLevel": "25",
+        "multiEdit": true
+    },
+    {
+        "ticketId": 3,
+        "ticketName": "PO request",
+        "userId": "1",
+        "categoryId": 2,
+        "datecreated": "07/12/2017",
+        "departmentOwner": "Accounting",
+        "daysAssigned": "13",
+        "reorderLevel": "25",
+        "multiEdit": true
+    },
+    {
+        "ticketId": "4",
+        "ticketName": "Job Posting",
+        "userId": "2",
+        "categoryId": 2,
+        "datecreated": "06/15/2017",
+        "departmentOwner": "It",
+        "daysAssigned": "3",
+        "reorderLevel": "0",
+        "multiEdit": true
+    }
+]
