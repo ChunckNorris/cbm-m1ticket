@@ -10,10 +10,12 @@ import { AuthGuard } from './auth-guard.guard';
 
 const routes: Routes = [
 
-    { path: '', component: MyTicketsPage, canActivate: [AuthGuard] },
-    { path: 'home', component: MyTicketsPage, canActivate: [AuthGuard] },
-    { path: 'login', component: LoginPage, data: { breadcrumb: "Log In" } },
-    { path: '**', redirectTo: '' }
+    { path: '', component: MyTicketsPage  },
+    { path: 'home', component: MyTicketsPage },
+     { path: 'all', component: MyTicketsPage },
+      { path: 'add', component: NewTicketPage },
+    { path: 'edit', component: EditTicketPage  }
+   // { path: '**', redirectTo: '' }
 
 ];
 

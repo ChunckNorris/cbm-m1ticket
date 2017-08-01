@@ -1,0 +1,29 @@
+<table class="table table-striped" [mfData]="tickets" #mf="mfDataTable" [mfRowsOnPage]="5">
+    <thead>
+        <tr>
+            <th class="blueborder"><strong><mfDefaultSorter by="ticketName">Ticket Name</mfDefaultSorter></strong></th>
+            <th class="blueborder"><strong>User Id</strong></th>
+            <th class="blueborder"><strong>Date Created</strong></th>
+            <th class="blueborder"><strong>Department Owner</strong></th>
+             <th class="blueborder"><strong>Date Assigned</strong></th>
+            <th class="blueborder"><strong>Ageing Days</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of mf.data">
+           <td>{{item.ticketName}}</td>
+            <td>{{item.userId}}</td>
+            <td>{{item.datecreated}}</td>
+             <td>{{item.departmentOwner}}</td>
+              <td>{{item.datecreated}}</td>
+            <td>{{item.daysAssigned}}</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                <mfBootstrapPaginator [rowsOnPageSet]="[5,10,25]"></mfBootstrapPaginator>
+            </td>
+        </tr>
+    </tfoot>
+</table>

@@ -103,7 +103,7 @@ export class Api {
         //****************************** */
 
         //Dev work around
-          return this.http.get('data/tickets.json').map((res: Response) => res.json());
+          return this.http.get('assets/data/tickets.json').map((res: Response) => res.json());
           
 
     }
